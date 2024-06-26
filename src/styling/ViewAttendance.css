@@ -1,0 +1,42 @@
+/* ViewAttendance.css */
+
+.view-attendance-container {
+    margin: 20px;
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .filter-section label {
+    margin-right: 10px;
+  }
+  
+  .fetch-button {
+    background-color: #03314B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .fetch-button:hover {
+    background-color: #155799;
+  }
+  
+  .attendance-data table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .attendance-data th, .attendance-data td {
+    border: 1px solid #03314B;
+    padding: 8px;
+  }
+  
+  .attendance-data th {
+    background-color: #03314B;
+    color: white;
+  }
+  

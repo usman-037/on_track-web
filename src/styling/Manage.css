@@ -1,0 +1,423 @@
+/* ------------- Rabia's Portion Starts ------------- */
+.spacer8 {
+  margin-bottom: 8px;
+}
+.reject-button {
+  background-color: #f44336; 
+  color: white; 
+  margin-left: 8px; 
+  padding: 10px; 
+  font-size: 16px; 
+  width: 155px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+.reject-button:hover {
+  background-color: #910c0c; 
+}
+.approve-button {
+  background-color: #04aa6d;
+  color: white; 
+  margin-right: 8px; 
+  padding: 10px; 
+  font-size: 16px; 
+  width: 155px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+.approve-button:hover {
+  background-color: #024e32; 
+}
+.goto-button {
+  background-color: #008cba;
+  color: white; 
+  margin-right: 18px; 
+  padding: 10px; 
+  font-size: 16px; 
+  width: 185px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+.goto-button:hover {
+  background-color: #004080; 
+}
+.poppins32 {
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 32px;
+  color: #053566;
+}
+/* ------------- Rabia's Portion Ends ------------- */
+
+.manage-routes-container {
+  padding: 20px;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/Poppins.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../assets/Poppins-Medium.ttf") format("truetype");
+}
+
+.route-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 0 0 calc(33.33% - 10px); /* Adjust this value as needed */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.route-form .delete-button {
+  margin-top: 30px;
+  margin: 10px;
+}
+
+.button-container {
+  margin-top: 10px; /* Adjust the margin top as needed */
+  display: flex; /* Use flexbox */
+}
+button {
+  padding: 10px 20px;
+  background-color: #03314b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.action-buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+}
+
+.delete-button {
+  background-color: #f44336; /* Red background color */
+  color: white; /* White text color */
+  margin: 4px; /* Adjust the spacing */
+  padding: 10px; /* Adjust the padding */
+  font-size: 16px; /* Adjust the font size */
+  width: 100px; /* Fixed width */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Set cursor to pointer */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.delete-button:hover {
+  background-color: #910c0c; /* Darken the background color on hover */
+}
+.delete-button1 {
+  background-color: rgb(133, 24, 24); /* Change the background color to red */
+  color: white; /* Change the text color to white for better contrast */
+}
+.manage-button {
+  background-color: #008cba; /* Blue background color */
+  color: white; /* White text color */
+  margin: 4px; /* Adjust the spacing */
+  padding: 10px; /* Adjust the padding */
+  font-size: 16px; /* Adjust the font size */
+  width: 100px; /* Fixed width */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Set cursor to pointer */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.manage-button:hover {
+  background-color: #004080; /* Darken the background color on hover */
+}
+
+.request-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 10px;
+}
+.request-details p {
+  margin: 0;
+}
+.request-details p strong {
+  margin-right: 5px;
+}
+.routes-container {
+  display: flex;
+}
+.route-details {
+  flex-grow: 1;
+  margin: 0 0px; /* Optional: Adjust margin as needed */
+}
+
+.divider {
+  width: 2px;
+  background-color: #ffffff;
+  margin: 0 20px;
+}
+
+.blue-text {
+  color: #0056b3;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.spacer40 {
+  margin-bottom: 40px;
+}
+
+.spacerRight {
+  margin-right: 20px;
+}
+
+.spacer15 {
+  margin-bottom: 15px;
+}
+.spacer25 {
+  margin-bottom: 25px;
+}
+.spacer32 {
+  margin-bottom: 32px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.route-header {
+  color: #03314b;
+  margin-top: 30px;
+}
+
+.bold-hr {
+  border: none;
+  border-top: 3px solid #000; /* Adjust thickness and color as needed */
+  margin: 20px 0; /* Adjust spacing as needed */
+}
+
+.thin-hr {
+  border: none;
+  border-top: 1px solid #000; /* Adjust thickness and color as needed */
+  margin: 20px 0; /* Adjust spacing as needed */
+}
+
+.error-message {
+  color: red; /* Set text color to red */
+  font-size: 14px; /* Set font size */
+  margin-top: 5px; /* Add some top margin for spacing */
+}
+
+.success-message {
+  color: rgb(0, 179, 39); /* Set text color to red */
+  font-size: 14px; /* Set font size */
+  margin-top: 5px; /* Add some top margin for spacing */
+}
+
+.routes-table-custom {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.routes-table-custom th,
+.routes-table-custom td {
+  padding: 8px;
+}
+
+.routes-table-custom th {
+  background-color: #cacaca;
+  color: #000000;
+}
+
+.routes-table-custom tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.routes-table-custom tbody tr:hover {
+  background-color: #ddd;
+}
+
+.routes-table-custom tbody td {
+  border-top: 1px solid #ddd;
+}
+
+.routes-table-custom tbody td:first-child {
+  border-left: 1px solid #ddd;
+}
+
+.routes-table-custom tbody td:last-child {
+  border-right: 1px solid #ddd;
+}
+
+.routes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.routes-table th,
+.routes-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.routes-table th {
+  background-color: #cacaca;
+  color: #000000;
+  text-align: center;
+}
+
+.routes-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.routes-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.routes-table tbody td {
+  border-top: 1px solid #ddd;
+}
+
+.routes-table tbody td:first-child {
+  border-left: 1px solid #ddd;
+}
+
+.routes-table tbody td:last-child {
+  border-right: 1px solid #ddd;
+}
+
+.add-route-button {
+  float: right;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #04aa6d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+.add-route-button:hover {
+  background-color: #024e32; /* Darken the background color on hover */
+}
+
+
+
+.autocomplete-group {
+  display: flex;
+  align-items: flex-start;
+}
+
+.autocomplete-input-container {
+  flex: 1; /* Allow the input to grow to take available space */
+  margin-right: 10px; /* Add margin-right for spacing between input and button */
+}
+
+.add-location-button {
+  flex-shrink: 0; /* Prevent the button from shrinking */
+}
+
+
+.confirmation-dialog {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 350px;
+}
+
+.confirmation-dialog h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.confirmation-dialog p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.confirmation-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.confirmation-buttons button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.confirm-button {
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.confirm-button:hover {
+  background-color: #ff4045;
+}
+
+.cancel-button {
+  background-color: #ddd;
+  color: #333;
+}
+
+.cancel-button:hover {
+  background-color: #ccc;
+}
+.stop-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  font-size: 12px; /* Set font size smaller */
+  padding: 4px 8px; /* Adjust padding to make the button smaller */
+  cursor: pointer;
+  margin-left: 8px;
+  color: #000000; /* Adjust color as needed */
+  border-radius:10px;
+}
+
+.remove-button:hover {
+  color: #fb7100; /* Adjust hover color as needed */
+}

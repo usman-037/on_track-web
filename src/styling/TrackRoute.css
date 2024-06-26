@@ -1,0 +1,34 @@
+.containert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Use a modern font */
+    font-size: 24px; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    text-shadow: 1px 1px 2px rgba(32, 16, 179, 0.2); 
+}
+
+  
+  .select-container {
+
+    width: 200px; /* Adjust the width as needed */
+    margin-bottom: 20px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

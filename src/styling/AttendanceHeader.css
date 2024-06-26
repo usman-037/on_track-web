@@ -1,0 +1,31 @@
+/* HeaderMenu.css */
+
+.header-menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .header-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-menu ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .header-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-menu ul li a:hover {
+    background-color: #555;
+  }
+  

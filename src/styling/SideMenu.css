@@ -1,0 +1,68 @@
+.sidebar {
+  width: 270px;
+  flex-shrink: 0;
+  background-color: #03314B;
+  padding-top: 20px;
+  display: flex; /* Ensure that the sidebar occupies the full height */
+  flex-direction: column; /* Stack the sidebar content vertically */
+}
+
+.page-content {
+  flex-grow: 1; /* Allow the main content area to grow to fill the remaining space */
+  overflow-y: auto; /* Allow the main content area to scroll when necessary */
+}
+
+.sidebar-header {
+  padding: 40px 12px;
+  color: #FFFFFF;
+  text-align: center;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+}
+
+.sidebar a {
+  padding: 10px 13px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a i {
+  margin-right: 10px;
+}
+
+.sidebar a:hover {
+  background-color: #1f8b9e;
+  color: white;
+}
+.active {
+  background: linear-gradient(to bottom right, #669eb0, #03314B); 
+  color: #333; 
+}
+
+.customfont {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+@font-face {
+  font-family: 'FasterOne';
+  src: url('../assets/FasterOne-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NotoSans';
+  src: url('../assets/NotoSans.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('../assets/Lato.ttf') format('truetype');
+}
+

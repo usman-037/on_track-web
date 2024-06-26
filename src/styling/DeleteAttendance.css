@@ -1,0 +1,40 @@
+/* DeleteAttendance.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    width: 66%; /* Two-thirds of the screen */
+    margin-bottom: 10px;
+  }
+  
+  .styled-input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .delete-button {
+    width: 66%; /* Two-thirds of the screen */
+    text-align: center;
+  }
+  
+  .delete-button button {
+    padding: 10px 20px;
+    background-color: #ff0000; /* Red background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .delete-button button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  
