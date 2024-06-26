@@ -11,7 +11,7 @@ const Map = ({ center, zoom, markers, stops }) => {
 
   useEffect(() => {
     const loader = new Loader({
-      apiKey: "AIzaSyD0_zoemZLywa_RZRwygqDA7ch-9Jzy0Nw",
+      apiKey: "YOUR_GOOGLE_MAPS_API",
       version: "weekly",
     });
 
