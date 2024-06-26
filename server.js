@@ -11,7 +11,7 @@ const axios = require("axios");
 const moment = require("moment");
 
 const admin = require("firebase-admin");
-const serviceAccount = require("./ontrack-33401-firebase-adminsdk-f4zkg-52b58708db.json");
+const serviceAccount = require("YOUR_FIREBASE_ACCOUNT");
 const { Client } = require("@elastic/elasticsearch");
 
 const esClient = new Client({ node: "http://127.0.0.1:9200" });
@@ -27,7 +27,7 @@ admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
 mongoose.connect(
-  "mongodb+srv://test:test@cluster0.9gaw9xu.mongodb.net/onTrack",
+  "YOUR_MONGODB_URI",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -674,7 +674,7 @@ app.post("/api/routes", async (req, res) => {
         {
           params: {
             address: stop.trim(),
-            key: "AIzaSyD0_zoemZLywa_RZRwygqDA7ch-9Jzy0Nw",
+            key: "YOUR_GOOGLE_MAPS_API",
           },
         }
       );
@@ -1321,7 +1321,7 @@ app.get("/places-autocomplete", async (req, res) => {
   const { input } = req.query;
   try {
     const response = await axios.get(
-      `https://maps.googleapis.com/maps/api/place/autocomplete/json?input=${input}&components=country:PK&location=31.423466,72.9244901&radius=100000&key=AIzaSyD0_zoemZLywa_RZRwygqDA7ch-9Jzy0Nw`
+      `https://maps.googleapis.com/maps/api/place/autocomplete/json?input=${input}&components=country:PK&location=31.423466,72.9244901&radius=100000&key=YOUR_GOOGLE_MAPS_API`
     );
     res.json(response.data);
   } catch (error) {
@@ -1384,7 +1384,7 @@ app.put("/api/routes/:routeNo", async (req, res) => {
         {
           params: {
             address: stop.trim(),
-            key: "AIzaSyD0_zoemZLywa_RZRwygqDA7ch-9Jzy0Nw", // Replace with your Google Maps API key
+            key: "YOUR_GOOGLE_MAPS_API", // Replace with your Google Maps API key
           },
         }
       );
