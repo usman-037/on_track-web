@@ -7,7 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { FaTrash } from "react-icons/fa";
 // Google Maps API Key
-const MAPS_API_KEY = "AIzaSyD0_zoemZLywa_RZRwygqDA7ch-9Jzy0Nw";
+const MAPS_API_KEY = "YOUR_GOOGLE_MAPS_API";
 const AddRoute = () => {
   const [value, setValue] = useState("");
   const [suggestions, setSuggestions] = useState([]);
